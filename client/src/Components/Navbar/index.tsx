@@ -1,8 +1,14 @@
-import React from 'react';
+import React, { useRef, useEffect } from 'react';
 import './Navbar.css';
 function Navbar() {
+  const navRef = useRef(null);
+
+  useEffect(() => {
+    console.log(navRef.current);
+  }, []);
+
   return (
-    <nav className="mainNav">
+    <nav ref={navRef} className="mainNav">
       <div className="mainLogo">
         <a href="/">Pollark</a>
       </div>

@@ -12,8 +12,6 @@ html,
 body {
   height: 100%;
   font-family: 'Poppins', sans-serif;
-  background: url('../img/event.jpg') no-repeat center;
-  background-size: cover;
 }
 #root,
 .App {

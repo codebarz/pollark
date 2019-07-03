@@ -1,0 +1,35 @@
+.mainAbout {
+  padding-top: 100px;
+  margin: 10px auto;
+}
+.mainAbout h1 span {
+  font-family: 'Beast', cursive;
+}
+.mainAbout h1 {
+  padding: 10px 0 30px 0;
+}
+
+.mainAbout main {
+  display: flex;
+  padding: 0 90px;
+  text-align: left;
+}
+.mainAbout main article {
+  display: flex;
+}
+.mainAbout main article img {
+  width: 100px;
+  height: 100px;
+}
+.indArticle {
+  display: flex;
+  flex-direction: column;
+}
+.indArticle h2 {
+  padding: 0 10px;
+}
+.indArticle p {
+  padding: 10px;
+  font-size: 14px;
+  line-height: 30px;
+}

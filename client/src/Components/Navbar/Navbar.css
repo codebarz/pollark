@@ -4,6 +4,9 @@
   display: flex;
   position: fixed;
 }
+.dark {
+  background: #212121;
+}
 .mainLogo {
   flex: 0 0 20%;
 }

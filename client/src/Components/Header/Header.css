@@ -1,6 +1,7 @@
 .mainHeader {
-  padding-top: 200px;
   height: 100%;
+  background: url('../img/event.jpg') no-repeat center fixed;
+  background-size: cover;
 }
 .headerLogo p {
   color: #fff;
@@ -13,6 +14,8 @@
   font-family: 'Beast', cursive;
   font-weight: 500;
   font-size: 5vw;
+  padding: 200px 10px 20px 10px;
+  display: block;
 }
 .headerLogo a:hover {
   color: #ce0803;
@@ -23,6 +26,7 @@
   display: flex;
   flex-direction: column;
   color: #fff;
+  padding: 200px 10px 20px 10px;
   margin-left: 30px;
 }
 .mockVote p {
