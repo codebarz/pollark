@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 
 import MockVote from '../MockVote';
 import Login from '../Login';
@@ -34,9 +35,9 @@ function Header() {
             </a>
           </li>
           <li>
-            <a className="headerSignUp" href="/">
+            <NavLink className="headerSignUp" to="/signup">
               START A POLL
-            </a>
+            </NavLink>
           </li>
         </ul>
       </div>

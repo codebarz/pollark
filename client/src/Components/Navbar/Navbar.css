@@ -3,6 +3,7 @@
   height: 70px;
   display: flex;
   position: fixed;
+  background: rgba(0, 0, 0, 0.3);
 }
 .dark {
   background: #212121;
