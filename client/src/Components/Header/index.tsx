@@ -1,21 +1,42 @@
-import React from 'react';
+import React, { useState } from 'react';
+
+import MockVote from '../MockVote';
+import Login from '../Login';
+
+import './Header.css';
 
 function Header() {
+  const [loginState, setLoginState] = useState(false);
+
+  const loginStateHandler = (event: React.MouseEvent<HTMLElement>) => {
+    event.preventDefault();
+    setLoginState(!loginState);
+  };
+
   return (
-    <header>
+    <header className="mainHeader">
+      {!loginState ? '' : <Login />}
+      <MockVote />
       <div className="headerLogo">
         <a href="/" className="mockLogo">
           POLLARK
         </a>
-        <div className="mockVote" />
+        <p>
+          Our platform is devoted to all events seeking a polling system to
+          manage votes
+        </p>
       </div>
       <div className="headerBtn">
         <ul>
           <li>
-            <a href="/">LOGIN</a>
+            <a onClick={loginStateHandler} className="headerLogin" href="/">
+              LOGIN NOW
+            </a>
           </li>
           <li>
-            <a href="/">START A POLL</a>
+            <a className="headerSignUp" href="/">
+              START A POLL
+            </a>
           </li>
         </ul>
       </div>

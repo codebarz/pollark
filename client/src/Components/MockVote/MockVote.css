@@ -1,0 +1,16 @@
+.mockVote {
+  position: absolute;
+  left: 5%;
+  display: flex;
+  flex-direction: column;
+}
+.mockVote button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 3vw;
+  outline: none;
+}
+.mockVote button:hover {
+  color: #ce0803;
+}

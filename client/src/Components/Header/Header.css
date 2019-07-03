@@ -1,0 +1,64 @@
+.mainHeader {
+  padding-top: 200px;
+  height: 100%;
+}
+.headerLogo p {
+  color: #fff;
+  font-weight: bold;
+  padding: 20px 10px;
+}
+.headerLogo a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Beast', cursive;
+  font-weight: 500;
+  font-size: 5vw;
+}
+.headerLogo a:hover {
+  color: #ce0803;
+  text-shadow: 0 04px #000;
+  transition: all linear 0.2s;
+}
+.mockVote {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  margin-left: 30px;
+}
+.mockVote p {
+  font-size: 3vw;
+}
+.headerBtn {
+  margin: 30px auto;
+}
+.headerBtn ul {
+  text-align: center;
+}
+.headerBtn ul li {
+  display: inline-block;
+  padding: 10px;
+}
+.headerBtn ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.headerBtn ul li a.headerLogin,
+.headerBtn ul li a.headerSignUp {
+  font-size: 0.8vw;
+  padding: 20px 90px;
+  font-weight: bold;
+  border-radius: 30px;
+  transition: all linear 0.2s;
+}
+.headerBtn ul li a.headerSignUp {
+  background: #ff4514;
+}
+.headerBtn ul li a.headerLogin {
+  border: 2px solid #ff4514;
+}
+.headerBtn ul li a.headerLogin:hover,
+.headerBtn ul li a.headerSignUp:hover {
+  background: #ce0803;
+  border: none;
+  transition: all linear 0.2s;
+}
