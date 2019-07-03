@@ -1,0 +1,64 @@
+.mainNav {
+  width: 100%;
+  height: 70px;
+  display: flex;
+}
+.mainLogo {
+  flex: 0 0 20%;
+}
+.mainLogo a {
+  font-family: 'Beast', sans-serif;
+  color: #fff;
+  line-height: 70px;
+  font-weight: 500;
+  font-size: 2.5vw;
+  text-decoration: none;
+  text-transform: lowercase;
+  transition: all linear 0.2s;
+}
+.mainLogo a:hover {
+  color: #d43b10;
+  transition: all linear 0.2s;
+  text-shadow: 0 0 4px #000;
+}
+.mainSmi {
+  flex: 0 0 60%;
+}
+.mainSmi ul {
+  text-align: center;
+}
+.mainSmi ul li {
+  display: inline-block;
+  padding: 0 20px;
+}
+.mainSmi ul li a {
+  color: #fff;
+  line-height: 70px;
+  text-decoration: none;
+  font-size: 1.3vw;
+  transition: all linear 0.2s;
+}
+.mainSmi ul li a:hover {
+  color: #d43b10;
+  transition: all linear 0.2s;
+}
+.mainLogin {
+  flex: 0 0 20%;
+}
+.mainLogin a {
+  line-height: 70px;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  background: #ff4514;
+  padding: 15px 30px;
+  font-size: 0.7vw;
+  font-weight: bolder;
+  border-radius: 30px;
+  transition: all linear 0.2s;
+}
+.mainLogin a:hover {
+  background: #d43b10;
+  padding: 15px 20px;
+  transition: all linear 0.2s;
+}
