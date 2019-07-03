@@ -15,6 +15,10 @@ body {
   background: url('../img/event.jpg') no-repeat center;
   background-size: cover;
 }
+#root,
+.App {
+  height: 100%;
+}
 .dim {
   position: absolute;
   width: 100%;
