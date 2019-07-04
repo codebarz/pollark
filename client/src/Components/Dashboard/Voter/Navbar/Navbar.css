@@ -1,0 +1,80 @@
+.vNavLogo {
+  flex: 0 0 10%;
+}
+.searchBar {
+  background: #eee;
+  height: 40px;
+  margin-top: 11px;
+  transition: all linear 0.2s;
+  border-radius: 30px;
+  flex: 0 0 40%;
+  display: flex;
+  border: 1px solid #eee;
+}
+.searchBar:hover {
+  border: 1px solid #999;
+  transition: all linear 0.2s;
+}
+.searchBar i {
+  flex: 0 0 10%;
+  font-size: 1.2vw;
+  color: #999;
+}
+.searchBar input {
+  flex: 0 0 85%;
+  padding: 0;
+  padding: 0 10px;
+  height: 100%;
+  font-size: 14px;
+  border: none;
+  border-radius: 30px;
+  background: transparent;
+  outline: none;
+}
+.searchBar input:focus + .searchBar {
+  background: #fff;
+}
+
+.vExplore {
+  flex: 0 0 10%;
+  display: flex;
+  padding: 0 10px;
+  justify-content: center;
+}
+.vExplore a {
+  color: #000;
+  text-decoration: none;
+  line-height: 62px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1vw;
+  flex: 0 0 50%;
+}
+.vExplore a:hover {
+  color: #000;
+}
+.vExplore i {
+  line-height: 62px;
+  color: #000;
+  font-size: 1.5vw;
+  cursor: pointer;
+}
+.vExplore i:hover {
+  color: #000;
+}
+.contactSupport {
+  flex: 0 0 10%;
+}
+.contactSupport button {
+  padding: 5px 10px;
+  background: none;
+  border: 1px solid #f96332;
+  border-radius: 4px;
+  color: #f96332;
+  font-weight: bold;
+  margin-top: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+.contactSupport button:hover {
+  background: #f96332;
+  color: #fff;
+}
