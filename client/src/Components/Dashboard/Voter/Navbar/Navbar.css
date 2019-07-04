@@ -78,3 +78,6 @@
   background: #f96332;
   color: #fff;
 }
+.fixed {
+  position: fixed;
+}

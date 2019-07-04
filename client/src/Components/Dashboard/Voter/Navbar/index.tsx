@@ -4,7 +4,7 @@ import './Navbar.css';
 
 function Navbar() {
   return (
-    <section className="voterNavbar">
+    <section className={`voterNavbar `}>
       <nav className="searchNav">
         <div className="vNavLogo">
           <p>Pollark</p>
