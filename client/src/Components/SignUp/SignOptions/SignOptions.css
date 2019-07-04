@@ -1,0 +1,9 @@
+.signOptions ul {
+  text-align: center;
+}
+.signOptions ul li {
+  display: inline-block;
+  color: #ff4514;
+  padding: 10px;
+  font-size: 2vw;
+}

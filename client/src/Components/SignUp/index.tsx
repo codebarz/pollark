@@ -1,18 +1,17 @@
 import React from 'react';
+
+import PollerForm from '../PollerForm';
+import SignOptions from '../SignUp/SignOptions';
+
 import './SignUp.css';
 
 function SignUp() {
   return (
     <section className="signUpContainer">
-      <main>
-        <h1>Kindly register as a voter or polling agent</h1>
-        <ul>
-          <li>
-            <i className="mdi mdi-vote-outline" />
-            Voter
-          </li>
-          <li>Poller</li>
-        </ul>
+      <main className="asideArea" />
+      <main className="formArea">
+        <PollerForm />
+        <SignOptions />
       </main>
     </section>
   );
