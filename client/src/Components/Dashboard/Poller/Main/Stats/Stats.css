@@ -1,0 +1,18 @@
+.stats {
+  width: 100%;
+  height: fit-content;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.statCol {
+  flex: 0 0 50%;
+  border: 1px solid #f1f1f1;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.statRow {
+  flex: 0 0 50%;
+  border: 1px solid #000;
+}
