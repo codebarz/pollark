@@ -7,7 +7,7 @@ function MainNav() {
     <div className="vMainNav">
       <ul>
         <li>
-          <a className="vHome" href="/">
+          <a className="vHome active" href="/">
             Home
           </a>
         </li>
