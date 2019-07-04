@@ -2,26 +2,24 @@ import React, { useState } from 'react';
 
 import Login from '../Login';
 
-import './PollerForm.css';
-
 function PollerForm(props: any) {
   const [loginState, setLoginState] = useState(false);
 
   const loginStateHandler = (event: React.MouseEvent<HTMLElement>) => {
     event.preventDefault();
-    setLoginState(!loginState);
+    setLoginState(true);
   };
 
   return (
     <div className="pollerForm">
       {loginState ? <Login /> : ''}
-      <p>Become a Poller. Sign up now</p>
+      <p>Want to become a Voter. Sign up now</p>
       <span>
         or{' '}
         <a onClick={props.clickHandler} href="/">
           click here
         </a>{' '}
-        to register as a voter
+        to register as a Poller
       </span>
       <form>
         <div className="half">
@@ -29,7 +27,6 @@ function PollerForm(props: any) {
 
           <input type="text" placeholder="Last name" />
         </div>
-        <input type="text" placeholder="Company name" />
         <input type="email" placeholder="Email" />
         <input type="password" placeholder="Password" />
         <button type="submit">Sign up</button>{' '}
