@@ -1,5 +1,7 @@
 import React from 'react';
 
+import FollowChart from './Followers/Chart.js';
+
 import './Stats.css';
 
 function Stats() {
@@ -9,7 +11,9 @@ function Stats() {
         <div className="statRow" />
         <div className="statRow" />
       </div>
-      <div className="statCol" />
+      <div className="statCol">
+        <FollowChart />
+      </div>
     </section>
   );
 }
