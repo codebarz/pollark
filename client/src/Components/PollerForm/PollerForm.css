@@ -40,7 +40,7 @@
   width: 25%;
   margin: auto;
   border-radius: 30px;
-  background: #ff4514;
+  background: #f96332;
   border: none;
   color: #fff;
   font-weight: bold;
@@ -65,5 +65,5 @@
   width: 5%;
 }
 .pollerForm form input[type='checkbox']:checked {
-  background-color: #ff4514 !important;
+  background-color: #f96332 !important;
 }
