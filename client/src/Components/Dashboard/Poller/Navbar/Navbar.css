@@ -1,0 +1,13 @@
+.pollarkNavbar {
+  flex: 0 0 22%;
+  height: 100%;
+  background: #f96332;
+  box-shadow: 0 0 4px #ccc;
+}
+.pollarkNavbar p {
+  padding: 20px 10px;
+  text-align: left;
+  color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+}

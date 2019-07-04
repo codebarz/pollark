@@ -1,0 +1,45 @@
+.stats {
+  width: 100%;
+  height: fit-content;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: 'Poppins', sans-serif;
+}
+.statCol-lg {
+  flex: 0 0 45%;
+  border: 1px solid #f1f1f1;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 13px 0 rgba(82, 63, 105, 0.05);
+  border-radius: 4px;
+  padding: 20px;
+  background: #fff;
+}
+.statCol-lg p {
+  text-align: left;
+  border-bottom: 1px solid #f1f1f1;
+  padding: 10px 0;
+}
+.half {
+  display: flex;
+  flex-direction: row;
+  flex: 0 0 50%;
+}
+.statCol {
+  flex: 0 0 45%;
+  height: 90%;
+  border: 1px solid #f1f1f1;
+  height: auto;
+  box-shadow: 0 0 13px 0 rgba(82, 63, 105, 0.05);
+  border-radius: 4px;
+  padding: 10px;
+  background: #fff;
+}
+.statRow {
+  display: flex;
+  flex: 0 0 50%;
+  flex-direction: column;
+  justify-content: space-around;
+}

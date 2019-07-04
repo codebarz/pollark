@@ -1,0 +1,16 @@
+.mainNav {
+  display: none;
+}
+.searchNav {
+  width: 100%;
+  height: 62px;
+  display: flex;
+  flex-direction: row;
+  line-height: 40px;
+}
+
+.searchNav div p {
+  font-family: 'Beast', cursive;
+  font-size: 2vw;
+  line-height: 62px;
+}

@@ -1,0 +1,27 @@
+.vMainNav {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.vMainNav ul {
+  display: block;
+  text-align: left;
+  padding: 10px 20px;
+}
+.vMainNav ul li {
+  display: inline-block;
+  padding-right: 24px;
+}
+.vMainNav ul li a {
+  padding-bottom: 17px;
+  padding-top: 21px;
+  font-size: 12px;
+  text-decoration: none;
+  color: #333;
+}
+.vMainNav ul li:first-child {
+  border-right: 1px solid #f1f1f1;
+}
+.vMainNav ul li:nth-child(2) {
+  padding-left: 10px;
+}
