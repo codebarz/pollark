@@ -16,7 +16,7 @@
 .loginForm p {
   font-family: 'Beast', cursive;
   font-size: 3vw;
-  color: #ff4514;
+  color: #f96332;
 }
 
 .loginForm p:nth-child(2) {
@@ -44,7 +44,7 @@
 .loginForm button {
   padding: 15px 30px;
   color: #fff;
-  background: #ff4514;
+  background: #f96332;
   border: none;
   font-size: 10px;
   font-weight: bold;
@@ -59,8 +59,8 @@
 }
 .loginForm ul li {
   display: inline-block;
-  /* background: #ff4514; */
+  /* background: #f96332; */
   padding: 10px;
-  color: #ff4514;
+  color: #f96332;
   font-size: 2vw;
 }

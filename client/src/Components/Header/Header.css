@@ -55,10 +55,10 @@
   transition: all linear 0.2s;
 }
 .headerBtn ul li a.headerSignUp {
-  background: #ff4514;
+  background: #f96332;
 }
 .headerBtn ul li a.headerLogin {
-  border: 2px solid #ff4514;
+  border: 2px solid #f96332;
 }
 .headerBtn ul li a.headerLogin:hover,
 .headerBtn ul li a.headerSignUp:hover {
