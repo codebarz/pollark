@@ -15,6 +15,8 @@ function SignUp() {
     setPollerFormState(!pollerFormState);
   };
 
+  
+
   return (
     <section className="signUpContainer">
       <main className="asideArea" />
@@ -22,7 +24,7 @@ function SignUp() {
         {!pollerFormState ? (
           <PollerForm clickHandler={pollerFormHandler} />
         ) : (
-          <VoterForm />
+          <VoterForm clickHandler={pollerFormHandler} />
         )}
         <SignOptions />
         <div>
