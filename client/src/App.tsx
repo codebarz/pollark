@@ -7,6 +7,7 @@ import Navbar from './Components/Navbar';
 import Home from './Components/Home';
 import Signup from './Components/SignUp';
 import Voter from './Components/Dashboard/Voter';
+import Poller from './Components/Dashboard/Poller';
 
 const App: React.FC = () => {
   return (
@@ -16,6 +17,7 @@ const App: React.FC = () => {
         <Route path="/" exact component={Home} />
         <Route path="/signup" exact component={Signup} />
         <Route path="/voter" exact component={Voter} />
+        <Route path="/poller" exact component={Poller} />
       </Router>
     </div>
   );
