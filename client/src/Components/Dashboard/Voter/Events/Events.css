@@ -1,0 +1,68 @@
+/* ---- grid ---- */
+
+.grid {
+  width: 99%;
+  margin: 5px auto;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+  width: 33%;
+  margin-left: 0.333%;
+  margin-bottom: 0.333%;
+  transition: all linear 0.2s;
+  position: relative;
+}
+.grid-item {
+  float: left;
+}
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
+}
+
+.cardEventDetails {
+  position: absolute;
+  z-index: 999;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+}
+.cardEventDetails .eventImg {
+  width: 50px;
+  height: 50px;
+  background: #ccc;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.cardEventDetails .eventName {
+  padding-top: 5px;
+}
+.cardEventRatings {
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  z-index: 999;
+  padding: 20px;
+  display: flex;
+}
+.cardEventRatings button {
+  float: right;
+  width: 100px;
+  border: none;
+  background: #f96332;
+  color: #fff;
+  border-radius: 4px;
+  margin-left: 20px;
+  cursor: pointer;
+}

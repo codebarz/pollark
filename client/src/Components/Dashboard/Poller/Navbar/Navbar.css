@@ -1,13 +1,60 @@
 .pollarkNavbar {
   flex: 0 0 22%;
   height: 100%;
-  background: #f96332;
+  background: #fff;
   box-shadow: 0 0 4px #ccc;
+  position: relative;
+}
+i.toggler {
+  float: right;
+  padding: 10px 20px;
+  font-size: 1.3vw;
+  cursor: pointer;
 }
 .pollarkNavbar p {
   padding: 20px 10px;
   text-align: left;
-  color: #fff;
+  color: #212121;
   font-weight: 400;
   font-size: 12px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.pollarkNavbar ul a {
+  color: #000;
+  text-decoration: none;
+}
+.pollarkNavbar ul a:hover {
+  color: #f96332;
+  transition: all linear 0.2s;
+}
+.pollarkNavbar ul li {
+  text-align: left;
+  padding: 15px 30px;
+  font-size: 12px;
+}
+.pollarkNavbar ul li i {
+  margin-right: 10px;
+}
+.logOutPollark {
+  width: 60px;
+  height: 60px;
+  color: #f96332;
+  background: #fff;
+  border: none;
+  border-radius: 50%;
+  font-size: 1.3vw;
+  box-shadow: 0 0.46875rem 2.1875rem rgba(4, 9, 20, 0.03),
+    0 0.9375rem 1.40625rem rgba(4, 9, 20, 0.03),
+    0 0.25rem 0.53125rem rgba(4, 9, 20, 0.05),
+    0 0.125rem 0.1875rem rgba(4, 9, 20, 0.03);
+  transition: all linear 0.2s;
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+}
+.logOutPollark:hover {
+  color: #fff;
+  background: #f96332;
+  cursor: pointer;
+  transition: all linear 0.2s;
 }
