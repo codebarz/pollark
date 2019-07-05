@@ -1,0 +1,32 @@
+/* ---- grid ---- */
+
+.grid {
+  width: 99%;
+  margin: 5px auto;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+  width: 33%;
+  margin-left: 0.333%;
+  margin-bottom: 0.333%;
+  position: relative;
+}
+
+.grid-item {
+  float: left;
+}
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
+}
