@@ -1,6 +1,5 @@
 import React from 'react';
 
-import Stats from './Stats';
 import Map from './Map';
 
 import './Main.css';

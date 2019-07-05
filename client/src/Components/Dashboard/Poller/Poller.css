@@ -1,6 +1,10 @@
 body {
   background: #f9f9fc;
 }
+.mainPollark {
+  display: flex;
+  height: 100%;
+}
 .mainNav {
   display: none;
 }
