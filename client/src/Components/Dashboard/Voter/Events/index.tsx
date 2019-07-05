@@ -1,7 +1,9 @@
 import React from 'react';
 
-function Events(): any {
-  return <p>Helloo</p>;
+import './Events.css';
+
+function Events(props: any): any {
+  return <p>yo</p>;
 }
 
 export default Events;
