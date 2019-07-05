@@ -4,6 +4,7 @@
   background: #fff;
   box-shadow: 0 0 4px #ccc;
   position: relative;
+  z-index: 999999;
 }
 i.toggler {
   float: right;
@@ -57,4 +58,9 @@ i.toggler {
   background: #f96332;
   cursor: pointer;
   transition: all linear 0.2s;
+}
+.fixedDashNav {
+  position: fixed;
+  width: 20%;
+  height: 100%;
 }

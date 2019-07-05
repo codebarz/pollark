@@ -1,0 +1,8 @@
+.pollarkMap {
+  width: 100%;
+}
+#chartobject-1,
+#chartobject-1 svg,
+.raphael-group-6-parentgroup {
+  width: 100% !important;
+}
