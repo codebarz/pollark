@@ -1,10 +1,14 @@
 import React, { useState, useRef } from 'react';
 
+import * as firebase from 'firebase/app';
+import 'firebase/auth';
+import firebaseConfig from '../../config/firebaseConfig';
+
 import Login from '../Login';
 
 import './PollerForm.css';
 
-interface formState {
+interface IFormState {
   firstName: string;
   lastName: string;
   companyName: string;
@@ -17,7 +21,7 @@ interface formState {
 function PollerForm(props: any) {
   const [loginState, setLoginState] = useState(false);
 
-  const [formState, setFormState] = useState({
+  const [formState, setFormState] = useState<IFormState>({
     firstName: '',
     lastName: '',
     companyName: '',
@@ -27,12 +31,27 @@ function PollerForm(props: any) {
     isVoter: false
   });
 
-  const firstNameRef: any = useRef(null);
-  const lastNameRef: any = useRef(null);
-  const emailRef: any = useRef(null);
-  const companyNameRef: any = useRef(null);
-  const passwordRef: any = useRef(null);
-  const checkedRef: any = useRef(null);
+  const firstNameRef: any = useRef<HTMLInputElement>(null);
+  const lastNameRef: any = useRef<HTMLInputElement>(null);
+  const emailRef: any = useRef<HTMLInputElement>(null);
+  const companyNameRef: any = useRef<HTMLInputElement>(null);
+  const passwordRef: any = useRef<HTMLInputElement>(null);
+  const checkedRef: any = useRef<HTMLInputElement>(null);
+
+  const firebaseApp = firebase.initializeApp(firebaseConfig);
+  const firebaseAppAuth = firebaseApp.auth();
+
+  const doCreateUserWithEmailAndPassword = (
+    email: string,
+    password: string
+  ) => {
+    firebase.auth().createUserWithEmailAndPassword(email, password);
+  };
+
+  const doSignInWithEmailAndPassword = (email: string, password: string) => {
+    firebase.auth().signInWithEmailAndPassword(email, password);
+  };
+
 
   const loginStateHandler = (event: React.MouseEvent<HTMLElement>) => {
     event.preventDefault();
@@ -46,7 +65,7 @@ function PollerForm(props: any) {
 
     const headers = { 'Content-Type': 'application/json' };
 
-    const val: formState = {
+    const val: IFormState = {
       checked: checkedRef.current.value,
       companyName: companyNameRef.current.value,
       email: emailRef.current.value,
@@ -68,6 +87,8 @@ function PollerForm(props: any) {
         console.log(json);
       });
   };
+
+  
 
   function submitFormHandler() {}
 

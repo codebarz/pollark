@@ -12,6 +12,7 @@
     "@types/react-router-dom": "^4.3.4",
     "apexcharts": "^3.8.1",
     "chart.js": "^2.8.0",
+    "firebase": "^6.2.4",
     "fusioncharts": "^3.13.5-sr.1",
     "google-maps-react": "^2.0.2",
     "prop-types": "^15.7.2",
@@ -23,6 +24,7 @@
     "react-masonry-component": "^6.2.1",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
+    "react-with-firebase-auth": "^1.0.3",
     "typescript": "3.5.2"
   },
   "scripts": {
