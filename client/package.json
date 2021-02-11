@@ -10,7 +10,7 @@
     "@types/react": "16.8.22",
     "@types/react-dom": "16.8.4",
     "@types/react-router-dom": "^4.3.4",
-    "apexcharts": "^3.8.1",
+    "apexcharts": "^3.24.0",
     "chart.js": "^2.8.0",
     "google-maps-react": "^2.0.2",
     "prop-types": "^15.7.2",
